@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A collection of coding katas. See [here][../exercises] for exercises.",
+  "main": "src/example.js",
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  },
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrikeh/coding-katas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrikeh/coding-katas/issues"
+  },
+  "homepage": "https://github.com/shrikeh/coding-katas#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
